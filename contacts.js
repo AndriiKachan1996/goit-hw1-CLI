@@ -22,7 +22,7 @@ async function getContactById(contactId) {
 	const contactIndex = list.findIndex((contact) => contact.id === contactId);
 	let contact = null;
 	if (contactIndex <= 0) contact = { ...list[contactIndex] };
-	console.log(contact);
+	// console.log(contact);
 	return contact;
 }
 
